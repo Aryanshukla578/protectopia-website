@@ -64,44 +64,7 @@ const ContactSection = () => {
             </CardContent>
           </Card>
           
-          <div className="space-y-8 animate-fadeIn delay-100">
-            <div className="bg-white p-6 rounded-lg border border-border">
-              <h3 className="text-xl font-semibold mb-4">Our Offices</h3>
-              
-              <div className="space-y-6">
-                <div className="flex space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-full h-12 w-12 flex items-center justify-center flex-shrink-0">
-                    <svg className="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">New York (Headquarters)</h4>
-                    <p className="text-muted-foreground">
-                      123 IP Avenue, Suite 500<br />
-                      New York, NY 10001
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex space-x-4">
-                  <div className="bg-primary/10 p-3 rounded-full h-12 w-12 flex items-center justify-center flex-shrink-0">
-                    <svg className="h-5 w-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-medium">San Francisco</h4>
-                    <p className="text-muted-foreground">
-                      456 Tech Lane<br />
-                      San Francisco, CA 94105
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+         
             
             <div className="bg-white p-6 rounded-lg border border-border">
               <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
@@ -116,8 +79,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Email Us</h4>
                     <p className="text-muted-foreground">
-                      info@ipprotector.com<br />
-                      support@ipprotector.com
+                      as3061693@gmail.com<br />
                     </p>
                   </div>
                 </div>
@@ -131,8 +93,9 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Call Us</h4>
                     <p className="text-muted-foreground">
-                      +1 (555) 123-4567<br />
-                      +1 (555) 987-6543
+                      +91 7068378758<br />
+                      +91 7897612654
+                      +91 9935147551
                     </p>
                   </div>
                 </div>

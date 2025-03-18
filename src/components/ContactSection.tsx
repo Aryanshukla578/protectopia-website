@@ -101,7 +101,6 @@ const ContactSection = () => {
                 </div>
               </div>
             </div>
-            
             <div className="bg-gradient-to-r from-primary to-secondary text-white p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-4">Free Consultation</h3>
               <p className="mb-4">
@@ -113,9 +112,7 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
-};
 
 export default ContactSection;

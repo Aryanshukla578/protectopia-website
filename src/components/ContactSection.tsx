@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -64,8 +63,7 @@ const ContactSection = () => {
             </CardContent>
           </Card>
           
-         
-            
+          <div className="space-y-8">
             <div className="bg-white p-6 rounded-lg border border-border">
               <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
               
@@ -79,7 +77,7 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-medium">Email Us</h4>
                     <p className="text-muted-foreground">
-                      as3061693@gmail.com<br />
+                      as3061693@gmail.com
                     </p>
                   </div>
                 </div>
@@ -94,13 +92,14 @@ const ContactSection = () => {
                     <h4 className="font-medium">Call Us</h4>
                     <p className="text-muted-foreground">
                       +91 7068378758<br />
-                      +91 7897612654
+                      +91 7897612654<br />
                       +91 9935147551
                     </p>
                   </div>
                 </div>
               </div>
             </div>
+
             <div className="bg-gradient-to-r from-primary to-secondary text-white p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-4">Free Consultation</h3>
               <p className="mb-4">
@@ -111,7 +110,11 @@ const ContactSection = () => {
               </Button>
             </div>
           </div>
+
         </div>
+      </div>
     </section>
   );
-// export default ContactSection;
+};
+
+export default ContactSection;
